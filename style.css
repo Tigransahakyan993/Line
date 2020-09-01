@@ -1,0 +1,43 @@
+.row {
+display: flex;
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+
+.ball {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+.blueviolet {
+    background-color: blueviolet;
+}
