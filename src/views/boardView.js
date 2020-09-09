@@ -1,19 +1,19 @@
 import {Observable} from "../models/Observable.js";
-import {BALL_SELECTED_EVENT, CELL_SELECTED_EVENT} from "../CONSTANTS.js";
+import {BALL_SELECTED_EVENT, CELL_SELECTED_EVENT} from "../CONSTANTS/CONSTANTS.js";
 
 export class BoardView {
     constructor() {
         this.isExist = false;
         this.observer = new Observable();
-        this.dispatchStartPoint = this.dispatchStartPoint.bind(this)
+        this.dispatchStartPoint = this.dispatchStartPoint.bind(this);
         this.dispatchEndPoint = this.dispatchEndPoint.bind(this);
     }
 
     render(){
         if (!this.isExist) {
-            this.create()
+            this.create();
             this.isExist = true;
-            return
+            return;
         }
         this.update()
     }
@@ -107,12 +107,11 @@ export class BoardView {
             case -6:
                 ball.classList.add('blueviolet');
                 break;
-
         }
     }
 
     setData(matrix) {
 this.matrix = matrix;
-this.render()
+this.render();
     }
 }

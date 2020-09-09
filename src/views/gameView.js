@@ -1,10 +1,10 @@
-import {Line} from "../bisnesLogic/Line.js";
-import {BoardView} from "../views/boardView.js";
-import {BALL_SELECTED_EVENT, CELL_SELECTED_EVENT} from "../CONSTANTS.js";
+import {Line} from "../models/Line.js";
+import {BoardView} from "./boardView.js";
+import {BALL_SELECTED_EVENT, CELL_SELECTED_EVENT} from "../CONSTANTS/CONSTANTS.js";
 
-export class Game {
+export class GameView {
     constructor() {
-        this.line = new Line()
+        this.line = new Line();
         this.boardView = new BoardView();
         this.setStartPoint = this.setStartPoint.bind(this);
         this.setEndPoint = this.setEndPoint.bind(this);
@@ -49,7 +49,7 @@ run() {
                 const digitsArray = this.line.generateRandomDigits();
                 for (let i = 0; i < digitsArray.length; i++) {
                     if (this.line.isBoardFilled()) {
-                        alert('Game Over...!!!')
+                        alert('GameView Over...!!!')
                         clearInterval(timerId);
                         return;
                     }
@@ -68,7 +68,7 @@ run() {
                     }
                 }
         clearInterval(timerId);
-    }, 80)
+    }, 60)
 }
 
 }

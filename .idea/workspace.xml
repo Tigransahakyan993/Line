@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23e455c2-3303-40b4-8470-fd2f05069f71" name="Default Changelist" comment="" />
+    <list default="true" id="23e455c2-3303-40b4-8470-fd2f05069f71" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CONSTANTS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/CONSTANTS/CONSTANTS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bisnesLogic/Line.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Line.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/gameView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/boardView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/boardView.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +23,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gXbOg613qp8tyKe6AA1hLXXnVt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,7 +59,10 @@
       <workItem from="1598615266728" duration="8185000" />
       <workItem from="1598867026315" duration="427000" />
       <workItem from="1598889184448" duration="16190000" />
-      <workItem from="1598942637719" duration="7892000" />
+      <workItem from="1598942637719" duration="19943000" />
+      <workItem from="1599461566986" duration="3809000" />
+      <workItem from="1599548043216" duration="6546000" />
+      <workItem from="1599639440354" duration="949000" />
     </task>
     <servers />
   </component>

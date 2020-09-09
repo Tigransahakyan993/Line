@@ -1,8 +1,8 @@
 window.onload = main;
 
-import {Game} from "./src/models/game.js";
+import {GameView} from "./src/views/gameView.js";
 
 function main() {
-const game = new Game();
+const game = new GameView();
 game.start();
 }

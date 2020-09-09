@@ -16,13 +16,15 @@ export class Line {
      startAlgorithm() {
          this.startDigit = this.matrix[this.startI][this.startJ];
          this.matrix[this.startI][this.startJ] = 1;
-         let currentDigit = 1;
+
          let currentCoordinates = [{i: this.startI, j: this.startJ}];
+         let currentDigit = 2;
          while (!this.isFinished(currentCoordinates)) {
              this.setNeighbours(currentCoordinates, currentDigit);
              currentDigit++;
              currentCoordinates = this.getCoordinatesOf(currentDigit);
          }
+
          if (this.isReachedToEndPoint()) {
              while (currentDigit > 0) {
                  this.showShortWay();
